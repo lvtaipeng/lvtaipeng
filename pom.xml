@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lvtaipeng.day02</groupId>
+  <artifactId>lvtaipeng_day02</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies><!-- 配置依赖父标签 -->
+  	<dependency><!-- 配置依赖子标签 -->
+  		<groupId>org.springframework</groupId><!-- 配置依赖路径 -->
+  		<artifactId>spring-context</artifactId><!-- 项目名称 -->
+  		<version>4.2.4.RELEASE</version><!-- 版本号 -->
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId><!-- 配置依赖路径 -->
+  		<artifactId>spring-struts</artifactId><!-- 项目名称 -->
+  		<version>3.0.5.RELEASE</version><!-- 版本号 -->
+  		<exclusions><!-- 排除父标签 -->
+  			<exclusion><!-- 排除子标签 -->
+  				<groupId>org.springframework</groupId><!-- 配置依赖路径 -->
+  				<artifactId>spring-beans</artifactId><!-- 项目名称 -->
+  			</exclusion>
+  		</exclusions>
+  	</dependency>
+  </dependencies>
+</project>
