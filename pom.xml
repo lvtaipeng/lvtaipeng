@@ -7,7 +7,7 @@
   	<dependency><!-- 配置依赖子标签 -->
   		<groupId>org.springframework</groupId><!-- 配置依赖路径 -->
   		<artifactId>spring-context</artifactId><!-- 项目名称 -->
-  		<version>4.2.4.RELEASE</version><!-- 版本号 -->
+  		<version>5.2.22.RELEASE</version><!-- 版本号 -->
   	</dependency>
   	<dependency>
   		<groupId>org.springframework</groupId><!-- 配置依赖路径 -->
